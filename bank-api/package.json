@@ -1,0 +1,19 @@
+{
+  "name": "bank-api",
+  "version": "1.0.0",
+  "description": "API to account management based on node and mongodb",
+  "main": "index.js",
+  "repository": "github.com/marcelobrunolara/mongo-apis",
+  "author": "Marcelo Lara",
+  "license": "MIT",
+  "scripts": {
+    "this": "nodemon -r dotenv/config"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.2",
+    "nodemon": "^2.0.4"
+  },
+  "type": "module"
+}
